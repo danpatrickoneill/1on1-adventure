@@ -27,3 +27,11 @@ class Player:
         """
         return self.skills
     
+    def increase_skill(self, skill, points=1):
+        """
+        Increments given player skill by given value, defaults to 1
+        """
+        if skill in self.skills:
+            self.skills[skill] += points
+            return self.skills
+        return "Skill not found. Please check inputs."
