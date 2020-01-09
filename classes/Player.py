@@ -9,12 +9,21 @@ class Player:
             self.skills = skills
 
     def get_name(self):
+        """
+        Returns player name
+        """
         return self.name
 
     def set_name(self, name):
+        """
+        Sets player name
+        """
         self.name = name
         return self.name
     
     def get_skills(self):
+        """
+        Returns player skillset
+        """
         return self.skills
     
