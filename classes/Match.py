@@ -7,4 +7,7 @@ Two players enter; both leave, but one leaves as the winner
         self.opposing_player = opposing_player
 
     def get_players(self):
+        """
+        Returns players involved in match instance
+        """
         return [self.user_player, self.opposing_player]
