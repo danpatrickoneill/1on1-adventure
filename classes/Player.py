@@ -7,6 +7,7 @@ class Player:
             self.skills = DEFAULT_SKILLS
         else:
             self.skills = skills
+        self.style = None
 
     def get_name(self):
         """
@@ -35,3 +36,6 @@ class Player:
             self.skills[skill] += points
             return self.skills
         return "Skill not found. Please check inputs."
+
+    def set_style(self, style):
+        self.style = style
