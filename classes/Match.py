@@ -1,3 +1,4 @@
+# Will be factors pushing player toward outside vs. inside shots; not sure about implementation just yet
 STRATEGIES = {
     'marksman': .8,
     'bruiser': .2,
