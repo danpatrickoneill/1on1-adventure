@@ -12,3 +12,6 @@ A (mostly) text-based basketball adventure, with some light strategy and RPG ele
 ## Player control
 - How should it be set up? Players don't need a strategic preference set all the time, so maybe it could just be done through the match.
 - But it might make sense to choose a style of player? That's a nice idea.
+- I think offensive tendency should dictate shot distribution, maybe including a skill bump to relevant skills on character creation
+- Question is; should defensive strategy affect shot distribution as well?
+- Will definitely affect shot success; maybe only affects distribution at higher levels, could be sort of Perks-like
