@@ -9,9 +9,10 @@ class Match:
     """
     Two players enter; both leave, but one leaves as the winner
     """
-    def __init__(self, user_player, opposing_player, score=11):
+    def __init__(self, user_player, opposing_player, target_score=11, take_it=False):
         self.user_player = user_player
         self.opposing_player = opposing_player
+        self.take_it = take_it
 
     def get_players(self):
         """
@@ -22,5 +23,3 @@ class Match:
     def play_point(self):
         user_strategy = STRATEGIES[self.user_player.style]
         opp_strategy = STRATEGIES[self.opposing_player.style]
-
-        
