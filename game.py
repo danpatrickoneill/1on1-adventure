@@ -9,6 +9,8 @@ while True:
     name = input("Please enter your name: ")
     points = 0
     player_one = Player(name)
+    if name in ["Steph", "Curry", "Klay", "Jesus", "Shuttlesworth"]:
+        player_one.skills['three_point'] = 20
 
     factor = random.randrange(1,25)
     if player_one.skills['three_point'] >= factor:
