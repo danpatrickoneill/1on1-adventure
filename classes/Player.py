@@ -1,13 +1,13 @@
 DEFAULT_SKILLS = {'perimeter_d': 1, 'post_d': 1, 'three_point': 1, 'midrange': 1, 'layup': 1, 'dunk': 1}
 
 class Player:
-    def __init__(self, name, skills=None):
+    def __init__(self, name, skills=None, style='balanced'):
         self.name = name
         if skills is None:
             self.skills = DEFAULT_SKILLS
         else:
             self.skills = skills
-        self.style = None
+        self.style = style
 
     def get_name(self):
         """
