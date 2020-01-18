@@ -2,7 +2,7 @@ import random
 from classes.player import Player
 from classes.match import Match
 
-potential opponents = []
+potential_opponents = [Player("Generico")]
 
 # Shootaround test app
 # while True:
@@ -23,3 +23,7 @@ potential opponents = []
     
 #     print(f"{name} scored {points} points. Thanks for playing!")
 #     break
+
+# Game involving actual match
+while True:
+    name = input("Please enter your name: ")
