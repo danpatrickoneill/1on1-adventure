@@ -3,8 +3,6 @@ from classes.player import Player
 from classes.match import Match
 
 
-print(player_one.skills)
-
 while True:
     name = input("Please enter your name: ")
     points = 0
@@ -22,3 +20,4 @@ while True:
         print(random.choice(failure_messages))
     
     print(f"{name} scored {points} points. Thanks for playing!")
+    break
