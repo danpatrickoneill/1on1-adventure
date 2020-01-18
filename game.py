@@ -2,7 +2,9 @@ import random
 from classes.player import Player
 from classes.match import Match
 
-potential_opponents = [Player("Generico")]
+super_skills = {'perimeter_d': 20, 'post_d': 20, 'three_point': 20, 'midrange': 20, 'layup': 20, 'dunk': 20}
+
+potential_opponents = [Player("Generico"), Player("MJ", super_skills)]
 
 # Shootaround test app
 # while True:
@@ -27,3 +29,6 @@ potential_opponents = [Player("Generico")]
 # Game involving actual match
 while True:
     name = input("Please enter your name: ")
+    player_one = Player(name)
+    opponent = input("Please choose your opponent: [0] Generico [1] Michael Jeffrey Jordan")
+    new_match = (player_one, potential_opponents[opponent])
