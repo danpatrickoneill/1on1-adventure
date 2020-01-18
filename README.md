@@ -16,3 +16,10 @@ A (mostly) text-based basketball adventure, with some light strategy and RPG ele
 - I think offensive tendency should dictate shot distribution, maybe including a skill bump to relevant skills on character creation
 - Question is; should defensive strategy affect shot distribution as well?
 - Will definitely affect shot success; maybe only affects distribution at higher levels, could be sort of Perks-like
+
+## Match System
+- Needs method of assigning possession at the start of match; probably shoot for it, right?
+- Need to play out each point, give a result; for now, let's say all misses are defensive rebounds; airball and back up mechanic could be fun (penalize shaky three point shooters being given space to shoot)
+- Easy to set up different possession rules on made basket
+- Some sort of 21 game? Would like to try a text-based/maybe eventually visual FT component
+- Static styles for now; think notes on mechanics from above section still hold true
