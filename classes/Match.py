@@ -6,9 +6,9 @@ STRATEGIES = {
 }
 
 class Match:
-"""
-Two players enter; both leave, but one leaves as the winner
-"""
+    """
+    Two players enter; both leave, but one leaves as the winner
+    """
     def __init__(self, user_player, opposing_player, score=11):
         self.user_player = user_player
         self.opposing_player = opposing_player
