@@ -23,3 +23,5 @@ A (mostly) text-based basketball adventure, with some light strategy and RPG ele
 - Easy to set up different possession rules on made basket
 - Some sort of 21 game? Would like to try a text-based/maybe eventually visual FT component
 - Static styles for now; think notes on mechanics from above section still hold true
+- Mix up displayed results as needed; steals, blocks, what have you
+- But are those actual differences, or does it not really matter with skills being what they are? Probably keep it simple to start
